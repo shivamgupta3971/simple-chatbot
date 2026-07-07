@@ -3,7 +3,6 @@ import random
 
 # RESPONSE DATA - All chatbot responses
 
-
 GREETINGS = [
     "hello",
     "hi",
@@ -44,9 +43,7 @@ EXIT_RESPONSES = [
     "Farewell! Come back anytime you need help!",
 ]
 
-
 # CHATBOT BRAIN - Response Logic
-
 
 def get_response(user_input):
     """
@@ -149,7 +146,6 @@ def get_response(user_input):
 
 # HELPER FUNCTIONS
 
-
 def show_help():
     """Show all available commands to the user."""
     help_text = """
@@ -172,7 +168,6 @@ def show_help():
     """
     return help_text
 
-
 def tell_joke():
     """Return a random joke."""
     jokes = [
@@ -184,7 +179,6 @@ def tell_joke():
         "🤖 Why did the robot go on vacation?\n   To recharge its batteries! 🔋",
     ]
     return random.choice(jokes)
-
 
 def handle_math(user_input):
     """Simple calculator for basic math operations."""
@@ -234,9 +228,7 @@ def get_default_response(user_input):
     ]
     return random.choice(defaults)
 
-
 # DISPLAY FUNCTIONS - UI Design
-
 
 def print_welcome():
     """Display a welcome banner when chatbot starts."""
@@ -247,7 +239,6 @@ def print_welcome():
     print("  Type 'help' to see available commands")
     print("  Type 'bye' or 'exit' to quit")
     print("=" * 50 + "\n")
-
 
 def print_goodbye():
     """Display a goodbye message when chatbot exits."""
@@ -264,9 +255,7 @@ def typing_effect(text, delay=0.03):
         time.sleep(delay)
     print()  # New line after response
 
-
 # MAIN CHATBOT LOOP
-
 
 def run_chatbot():
     """
@@ -307,9 +296,7 @@ def run_chatbot():
             print_goodbye()
             break
 
-
 # PROGRAM ENTRY POINT
-
 
 if __name__ == "__main__":
     run_chatbot()
