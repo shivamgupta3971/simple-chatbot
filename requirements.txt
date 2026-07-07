@@ -1,0 +1,20 @@
+
+##  Requirements
+
+- **Python 3.x** or higher
+- **No external libraries** required!
+- Only uses Python built-in modules:
+  - `time` — for current time/date and typing effect
+  - `random` — for random responses and jokes
+
+
+
+## Installation
+
+### Step 1 — Clone or Download the Project
+
+```bash
+# Clone using git
+git clone https://github.com/yourusername/simple-chatbot.git
+
+# OR simply download chatbot.py manually
