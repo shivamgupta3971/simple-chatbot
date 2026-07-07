@@ -15,6 +15,6 @@
 
 ```bash
 # Clone using git
-git clone https://github.com/yourusername/simple-chatbot.git
+git clone https://github.com/shivamgupta3971/simple-chatbot.git
 
 # OR simply download chatbot.py manually
